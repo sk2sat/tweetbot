@@ -2,11 +2,11 @@
 
 #from threading import Thread
 
-import twitter.bot as twitter
+from tweetbot.bot import Bot
 import aesc
 
 def main():
-	bot = twitter.Bot()
+	bot = Bot()
 	bot.setkeys(aesc.CK, aesc.CS, aesc.AT, aesc.AS)
 	bot.run()
 
