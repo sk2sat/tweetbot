@@ -1,9 +1,11 @@
+# -*- coding: utf-8 -*-
 from requests_oauthlib import OAuth1Session
 import json
 import datetime, time, sys
 
+from tweetbot import settings
 
-class Bot:
+class Bot(object):
 	def __init__(self):
 		self.CK = ''
 		self.CS = ''
