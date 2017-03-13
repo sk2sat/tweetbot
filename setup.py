@@ -8,8 +8,8 @@ setup(
 	license		= __license__,
 	author		= __author__,
 	author_email	= '',
-	url		= 'https://github.com/sk2sat/tweetbot.git'
-	keywords	= 'twitter bot'
+	url		= 'https://github.com/sk2sat/tweetbot.git',
+	keywords	= 'twitter bot',
 	packages	= find_packages(),
 	install_requires= [],
-)
+	)
